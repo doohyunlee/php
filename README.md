@@ -1,4 +1,4 @@
-# bk_vagrant PHP7  [ 작성중 ] 
+# elastic 5.0  [ 작성중 ] 
 vagrant development environment construct
 
 ## Setting Info
