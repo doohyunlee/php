@@ -19,4 +19,12 @@ Vagrant.configure("2") do |config|
   
   # shared folder
   config.vm.synced_folder "..", "/var/www/html/data"
+
+  config.vm.provider "virtualbox" do |v|
+  v.memory = 8192
+  v.cpus = 4
+  v.name = "ElasticSearch-5.x"
+
+  end
+
 end
