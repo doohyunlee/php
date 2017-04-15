@@ -61,7 +61,6 @@ yes | mv php.ini /etc/php/7.0/apache2/php.ini
 
 sudo a2enmod rewrite
 
-
 # install openjdk-8
 sudo apt-get purge openjdk*
 sudo add-apt-repository ppa:webupd8team/java -y
@@ -91,3 +90,5 @@ echo "http.cors.enabled: true" >> elasticsearch-5.3.0/config/elasticsearch.yml
 echo "http.cors.allow-origin: /https?:\/\/.*/" >> elasticsearch-5.3.0/config/elasticsearch.yml
 
 sudo chown -R vagrant:vagrant elasticsearch-5.3.0
+
+
