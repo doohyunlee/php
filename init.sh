@@ -90,5 +90,3 @@ echo "http.cors.enabled: true" >> elasticsearch-5.3.0/config/elasticsearch.yml
 echo "http.cors.allow-origin: /https?:\/\/.*/" >> elasticsearch-5.3.0/config/elasticsearch.yml
 
 sudo chown -R vagrant:vagrant elasticsearch-5.3.0
-
-
