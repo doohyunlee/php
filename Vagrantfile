@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "init.sh"
   
   # port forward
-  config.vm.network "forwarded_port", guest: 80, host: 8080
+  config.vm.network "forwarded_port", guest: 9200, host: 9200
   
   # network adapter
   config.vm.network "private_network", ip: "192.168.33.10" 
