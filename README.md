@@ -17,7 +17,7 @@ php7 | memory:1024, cpus:1 | /var/www/html/data | apache2, php7, php gd, curl, r
    * virtualBox install( https://www.virtualbox.org/ )
    * vagrant install( https://www.vagrantup.com/ )
    
-### bk_vagrant git clone or download
+### vagrant git clone or download
    
 ### "vagrant up --provision" command input [ workspace root ]  // Use --provision option only at first setting
 
