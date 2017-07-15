@@ -1,14 +1,10 @@
-# elastic 5.0  [ 작성중 ] 
+# APACHE PHP7   [ 작성중 ] 
 vagrant development environment construct
 
 ## Setting Info
 Type | VM Spec | Data Shared | spec | php.ini setting
 ------------ | ------------- | ------------- | ------------- | -------------
-php7 | memory:1024, cpus:1 | /var/www/html/data | apache2, php7, php gd, curl, redis, php mcrypt | short_open_tag=on, timezone=Asia/Seoul
-
-
-> Update Logs
-> - 2017-02-24 1.0.0 Version PHP7
+php7 | memory:8192, cpus:4 | /var/www/html/data | apache2, php7, php gd, curl, redis, php mcrypt | short_open_tag=on, timezone=Asia/Seoul
 
 
 ## WINDOWS
